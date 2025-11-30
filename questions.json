@@ -1,0 +1,151 @@
+{
+  "title": "Microeconomics Advent Calendar 2025",
+  "subtitle": "Bettina's CBS Study Group",
+  "members": ["Bettina", "Student 2", "Student 3", "Student 4", "Student 5", "Student 6"],
+  "days": [
+    {
+      "day": 1,
+      "topic": "Consumer Choice Basics",
+      "question": "Explain what a budget constraint represents and how changes in income or prices shift it. Give a real-world example of how a student might adjust their consumption when their part-time job hours are cut.",
+      "answer": "A budget constraint shows all combinations of goods a consumer can afford given their income and prices. It's represented as: p1*x1 + p2*x2 = Y. When income falls, the constraint shifts inward (parallel shift). When a price changes, the constraint pivots. For a student losing job hours: with less income, they might reduce both food variety and entertainment spending, moving to a new optimal bundle on a lower budget line."
+    },
+    {
+      "day": 2,
+      "topic": "Utility and Preferences",
+      "question": "What are indifference curves and why can they never cross? Explain using the concept of transitivity.",
+      "answer": "Indifference curves connect all bundles giving equal utility. They cannot cross because of transitivity: if A~B (on one curve) and B~C (on another), then A~C. But if curves cross at B with A on one curve and C on another, and A is preferred to C, we have a contradiction. This violates the rationality assumption of consistent preferences."
+    },
+    {
+      "day": 3,
+      "topic": "Marginal Rate of Substitution",
+      "question": "Define the Marginal Rate of Substitution (MRS) and explain why it equals the price ratio at the optimal consumption bundle.",
+      "answer": "MRS = -dx2/dx1 along an indifference curve = MU1/MU2. At optimum, MRS = p1/p2. This is because if MRS > p1/p2, the consumer values good 1 more than the market does, so they should buy more of good 1. Only when MRS = price ratio is there no gain from reallocation. This is the tangency condition."
+    },
+    {
+      "day": 4,
+      "topic": "Income and Substitution Effects",
+      "question": "When the price of coffee rises, a student drinks less coffee. Decompose this change into income and substitution effects. Which effect dominates for a normal good?",
+      "answer": "Total effect = Substitution effect + Income effect. Substitution effect: Higher coffee price makes coffee relatively more expensive, so consumer substitutes toward other goods (always negative for price increase). Income effect: Higher price reduces real purchasing power; for normal goods, this further reduces coffee consumption. Both effects work in same direction for normal goods, reinforcing the law of demand."
+    },
+    {
+      "day": 5,
+      "topic": "Giffen Goods",
+      "question": "What makes a Giffen good special? Why is it theoretically possible but rarely observed in practice?",
+      "answer": "A Giffen good has an upward-sloping demand curve: quantity demanded increases when price rises. This requires: (1) the good is inferior (negative income effect), (2) the income effect is larger than substitution effect, (3) the good takes a large share of the budget. Rare because few goods meet all criteria. Historical example: Irish potato famine - when potato prices rose, poor families couldn't afford meat, so they bought more potatoes."
+    },
+    {
+      "day": 6,
+      "topic": "Demand Elasticity",
+      "question": "Calculate the price elasticity of demand if a 10% price increase leads to a 15% decrease in quantity demanded. Is this demand elastic or inelastic?",
+      "answer": "Price elasticity of demand = %change in Qd / %change in P = -15% / 10% = -1.5. Since |Ed| = 1.5 > 1, demand is elastic. This means consumers are relatively responsive to price changes. Revenue would fall if price increases, because the quantity decrease more than offsets the higher price."
+    },
+    {
+      "day": 7,
+      "topic": "Consumer Surplus",
+      "question": "What is consumer surplus and how is it measured graphically? Why does consumer surplus decrease when prices rise?",
+      "answer": "Consumer surplus is the difference between what consumers are willing to pay and what they actually pay. Graphically, it's the area below the demand curve and above the market price. When price rises, the area shrinks because: (1) consumers pay more for units still purchased, (2) some consumers exit the market. Total CS = integral from 0 to Q* of (P(Q) - P*) dQ."
+    },
+    {
+      "day": 8,
+      "topic": "Production Function Basics",
+      "question": "Distinguish between the short run and long run in production. Which inputs are fixed in each period?",
+      "answer": "Short run: At least one input is fixed (typically capital - factories, machines). Only variable inputs (labor) can be adjusted. Long run: All inputs are variable; firms can adjust both labor and capital. The distinction matters because short-run production is constrained by fixed factors, leading to diminishing returns, while long-run decisions involve choosing optimal input combinations."
+    },
+    {
+      "day": 9,
+      "topic": "Marginal Product",
+      "question": "Define marginal product of labor (MPL). Explain why it typically increases initially and then decreases as more workers are added.",
+      "answer": "MPL = dQ/dL = additional output from one more worker. Initially MPL increases due to specialization and division of labor - workers can focus on specific tasks. Eventually MPL decreases due to diminishing returns: fixed capital becomes a bottleneck, workers get in each other's way, coordination becomes harder. This is the Law of Diminishing Marginal Returns."
+    },
+    {
+      "day": 10,
+      "topic": "Isoquants",
+      "question": "What is an isoquant and how does it relate to the production function? Why are isoquants convex to the origin?",
+      "answer": "An isoquant shows all input combinations producing the same output level: Q = f(K,L) = constant. It's like an indifference curve for production. Convexity reflects diminishing MRTS: as we substitute labor for capital, each additional worker replaces less capital because there's less capital to work with. This reflects the complementarity between inputs."
+    },
+    {
+      "day": 11,
+      "topic": "Returns to Scale",
+      "question": "Distinguish between increasing, constant, and decreasing returns to scale. Give an example of an industry that might exhibit each.",
+      "answer": "Returns to scale measure how output changes when ALL inputs increase proportionally. Increasing RTS: Doubling inputs more than doubles output (software - high fixed costs, low marginal). Constant RTS: Doubling inputs exactly doubles output (many manufacturing processes). Decreasing RTS: Doubling inputs less than doubles output (large bureaucratic organizations - coordination costs). Check: If f(tK,tL) compared to t*f(K,L)."
+    },
+    {
+      "day": 12,
+      "topic": "Cost Minimization",
+      "question": "State the cost minimization condition. Why does a firm choose input combinations where MRTS equals the wage-rental ratio?",
+      "answer": "Cost minimization condition: MRTS = w/r, or MPL/MPK = w/r, equivalently MPL/w = MPK/r. This means the last dollar spent on each input yields equal marginal product. If MPL/w > MPK/r, firm should hire more labor (better 'bang per buck'). Only at equality is there no gain from reallocation. Graphically: isoquant tangent to isocost line."
+    },
+    {
+      "day": 13,
+      "topic": "Short-Run Costs",
+      "question": "Explain the relationship between marginal cost (MC), average variable cost (AVC), and average total cost (ATC). Why does MC intersect both AVC and ATC at their minimum points?",
+      "answer": "MC = dTC/dQ. When MC < AVC, producing one more unit brings down the average, so AVC is falling. When MC > AVC, it pulls the average up. Therefore MC = AVC at minimum AVC. Same logic for ATC. This is a mathematical property: marginal pulls average down when below, up when above. MC curve is U-shaped due to diminishing returns."
+    },
+    {
+      "day": 14,
+      "topic": "Economies of Scale",
+      "question": "What are economies of scale and how do they differ from returns to scale? What factors create economies of scale?",
+      "answer": "Economies of scale: long-run average cost falls as output increases. Returns to scale: physical relationship between inputs and outputs. They're related but different - economies of scale also include factors like bulk purchasing, specialization, spreading fixed costs. Sources: specialization, technical efficiencies (larger machines often more efficient), bulk discounts, learning by doing, spreading overhead costs."
+    },
+    {
+      "day": 15,
+      "topic": "Long-Run Average Cost",
+      "question": "Describe the typical shape of the long-run average cost (LRAC) curve. What does each section represent?",
+      "answer": "LRAC is typically U-shaped (or L-shaped): (1) Falling section: economies of scale dominate - spreading fixed costs, specialization benefits. (2) Minimum point: efficient scale - optimal firm size. (3) Rising section: diseconomies of scale - management complexity, coordination costs. LRAC is the envelope of short-run ATC curves, each representing a different plant size."
+    },
+    {
+      "day": 16,
+      "topic": "Profit Maximization",
+      "question": "State the profit maximization condition for a competitive firm. Why does MC = MR (= P for price-takers)?",
+      "answer": "Profit max: MC = MR. For competitive firm: P = MR (can sell any quantity at market price). So MC = P. Logic: If MC < P, producing one more unit adds to profit (revenue > cost). If MC > P, last unit loses money. Only at MC = P is profit maximized. Second condition: MC must be rising at that point (otherwise could be minimum)."
+    },
+    {
+      "day": 17,
+      "topic": "Shutdown Decision",
+      "question": "When should a firm shut down in the short run versus the long run? What's the difference between shutdown and exit?",
+      "answer": "Short-run shutdown: when P < AVC. At this point, firm can't even cover variable costs; better to produce nothing and only lose fixed costs. Long-run exit: when P < ATC. Can't cover all costs including fixed. Difference: Shutdown is temporary (fixed costs already sunk), exit is permanent (leaving industry). Shutdown point: P = min(AVC). Break-even point: P = min(ATC)."
+    },
+    {
+      "day": 18,
+      "topic": "Supply Curve",
+      "question": "Explain why a competitive firm's supply curve is its marginal cost curve above the shutdown point.",
+      "answer": "At each price P, firm produces where MC = P (profit max condition). So the MC curve tells us Q for each P - this is the definition of supply. But only above shutdown point (min AVC), because below that the firm produces zero. Therefore: Supply curve = MC curve for P >= min(AVC), and Q = 0 for P < min(AVC). Market supply is horizontal sum of firm supplies."
+    },
+    {
+      "day": 19,
+      "topic": "Producer Surplus",
+      "question": "Define producer surplus and explain its relationship to profit. How is it measured graphically?",
+      "answer": "Producer surplus = Revenue - Variable costs = Area above supply curve, below price. Relationship to profit: PS = Profit + Fixed costs. In short run with fixed costs, PS >= Profit. In long run with no fixed costs, PS = Profit. Graphically: triangle between price line and supply curve (MC curve). Total PS = integral from 0 to Q* of (P* - MC(Q)) dQ."
+    },
+    {
+      "day": 20,
+      "topic": "Market Equilibrium",
+      "question": "Explain how market equilibrium is determined and why prices tend to move toward equilibrium.",
+      "answer": "Equilibrium: Qd = Qs at price P*. Tendency toward equilibrium: If P > P*, surplus exists (Qs > Qd), sellers compete by lowering prices. If P < P*, shortage exists (Qd > Qs), buyers bid up prices. This continues until Qd = Qs. The 'invisible hand' - self-interested behavior leads to efficient allocation. Mathematically: solve demand and supply equations simultaneously."
+    },
+    {
+      "day": 21,
+      "topic": "Deadweight Loss",
+      "question": "What is deadweight loss and why do taxes create it? Show graphically how to calculate the deadweight loss from a per-unit tax.",
+      "answer": "Deadweight loss = loss in total surplus not captured by anyone. Taxes create DWL because they prevent mutually beneficial trades. Before tax: trades occur up to where MB = MC. After tax: trades stop where MB = MC + tax. The 'lost' trades had MB > MC, so society loses their surplus. Graphically: DWL = triangle between supply, demand, from old Q to new Q. DWL = (1/2) * tax * change in Q."
+    },
+    {
+      "day": 22,
+      "topic": "Price Ceilings",
+      "question": "Analyze the effects of a binding rent control (price ceiling). Who benefits and who loses?",
+      "answer": "Binding ceiling: P_ceiling < P_equilibrium. Effects: (1) Quantity demanded increases, (2) Quantity supplied decreases, (3) Shortage emerges. Winners: tenants who get apartments at low rent. Losers: tenants who can't find apartments, landlords who receive less rent, society (DWL from prevented trades). Additional effects: quality deterioration, black markets, discrimination in allocation."
+    },
+    {
+      "day": 23,
+      "topic": "Price Floors",
+      "question": "Explain why minimum wage (a price floor) might cause unemployment. Under what conditions might the unemployment effect be small?",
+      "answer": "Minimum wage above equilibrium: Qs of labor > Qd, creating unemployment (surplus of workers). Some workers benefit (employed at higher wage), others lose (unemployed). Unemployment effect might be small if: (1) demand for labor is inelastic, (2) monopsony power exists (firm was paying below competitive wage), (3) efficiency wages increase productivity. Empirical evidence is mixed on magnitude."
+    },
+    {
+      "day": 24,
+      "topic": "Welfare Economics",
+      "question": "State the First Welfare Theorem. Under what conditions does a competitive market achieve economic efficiency?",
+      "answer": "First Welfare Theorem: A competitive equilibrium is Pareto efficient - no reallocation can make someone better off without making someone worse off. Conditions needed: (1) Perfect competition (price-taking), (2) Complete markets (no externalities, all goods traded), (3) Perfect information, (4) No transaction costs. When these fail, market failures occur and government intervention may improve efficiency. This is the theoretical foundation for free market economics."
+    }
+  ]
+}
